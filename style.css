@@ -4,10 +4,15 @@ body{
 
 h1{
     text-align: center;
-    color: brown;
+    color: brown;   
 }
 
 .obr{
     display: flex;
     justify-content: center;
+}
+
+.obrazky{
+    display: flex;
+    justify-content: space-around;
 }
