@@ -93,10 +93,15 @@ body{
   }
 
 .nadpis-popis{
+  font-size: 1vw;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 5.5%;
+}
+
+.vnitrni-popis{
+  font-size: 1vw;
 }
 
 .vnitrni-popis div{
@@ -120,7 +125,7 @@ body{
   }
 
  .vnitrni-popis{
-  margin-top: 45px;
+  margin-top: 2%;
    width: 80%;
  }
   
