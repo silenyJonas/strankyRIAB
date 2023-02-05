@@ -51,25 +51,79 @@ body{
     color: #333333;    
   }
 
-  .header{    
-    
-       box-shadow: 0 10px 10px -10px black;
-}
-  
-  .content {
-    padding: 16px;
-    
+  .header{        
+       box-shadow: 0 10px 10px -10px black;       
   }
   
+ 
   .sticky {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100%;    
   }
   
   .sticky + .content {
     padding-top: 102px;
   }
+
+  .offset{
+    margin-top: 11vh;
+  }
+
+  .popis{    
+    
+    display: flex;
+    justify-content: center;
+  }
+  .popis-nadpis{    
+    position:absolute;
+    left: 900px;
+    top: 500px;
+  }
+  .pod-popis img{
+    width: 50vw;
+  }
+  .pod-popis{
+    margin-top: 50px;
+    width: 45vw;
+    height: 30vw; 
+    background-image: url('obrazky/front-board.png');
+    background-size: contain;
+  background-repeat: no-repeat;   
+  }
+
+.nadpis-popis{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5.5%;
+}
+
+.vnitrni-popis div{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+/*
+  .pod-popis img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .pod-popis img{
+    object-fit: fill;
+  }*/
+
+  .napis{
+    text-align: center;    
+  }
+
+ .vnitrni-popis{
+  margin-top: 45px;
+   width: 80%;
+ }
+  
 
   /*------CCS - nav bar -------*/
   .sec-nav-top p{

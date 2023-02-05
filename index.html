@@ -16,6 +16,7 @@
               <div class="nadpis">Vítá Vás aliance:</div>              
             </div>
             
+            
             <div class="header" id="myHeader">
               <div class="sec-nav-top">
                 
@@ -38,7 +39,43 @@
               </div>
             </div>
             <!--main-->
-            <div class="content">
+
+
+
+            <div>
+                    <div class="popis" id="myPopis">
+                        <div class="pod-popis"> 
+                            
+                                <div class="nadpis-popis">
+                                    Úvod
+                                </div>  
+                                <div class="popis">
+                                    <div class="vnitrni-popis">
+                                        <div>
+                                            Vážený návštěvníku,
+                                        </div>
+                                        <div>
+                                            vítám tě na stránkách aliance R.I.A.B. Za nedlouho to bude rok, co jsme na mapě. K našim prvním narozeninám jsme se rozhodli dát si dárek v podobě těchto stránek. Jednak abychom po sobě něco zanechali byť ve virtuální podobě, a hlavně abychom dali na vědomí že tu jsme, a že nás hra baví.
+                                            Postupně sem chceme umisťovat všechno co nám přijde zajímavé jak ve hře, tak i mezi hráči.
+                                          Za dobu fungování této hry jsem já i mí kolegové prošli mnoha aliancemi, potkali jsme mnohé skvělé hráče a našli si zde kamarády a někteří i životní partnery. Také je třeba vzpomenout na ty se kterými jsme hráli, hádali se, nebo bojovali, ale již nejsou mezi námi.
+                                            Po všech peripetiích mnoholetého hraní se sešla skupinka nadšenců na jednom místě. Tady, teď a v této alianci bychom si chtěli hrát, odpočinout si od starostí všedního dne mezi lidmi, se kterými je nám fajn dokud to bude možné. 
+                                            Jako velitel aliance R.I.A.B. ti jménem svým a jménem svých kolegů děkuji za tvůj zájem být součástí této hry a budu doufat, že se potkáme na v hospodě nebo na hradbách.
+                                        </div>
+                                        <div>
+                                            Co shoří-neshnije
+                                        </div>
+                                        <div>
+                                            Mantis 
+
+                                        </div>                                    
+                                    </div>
+                                </div>   
+                                                                                                                             
+                        </div>
+                    </div>
+
+
+
                 <p> 1R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B</p>
                 <p> 2R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B</p>
                 <p> 3R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B R.I.A.B</p>
@@ -90,11 +127,17 @@
                 var header = document.getElementById("myHeader");
                 var sticky = header.offsetTop;
                 
+                var popis = document.getElementById("myPopis");
+                var offset = popis.offsetTop;
+
+
                 function myFunction() {
                   if (window.pageYOffset > sticky) {
-                    header.classList.add("sticky");
+                    header.classList.add("sticky");  
+                    popis.classList.add("offset");                  
                   } else {
                     header.classList.remove("sticky");
+                    popis.classList.remove("offset");
                   }
                 }
             </script>    
