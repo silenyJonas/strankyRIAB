@@ -2,7 +2,9 @@
     
     font-family: 'Středoveka mrdka nejaka';
     position: fixed;
-    left: 43.5vw;
+    
     top: 10vh;
     font-size: 5vh;
+    background-color: #8a8a8a;
+    box-shadow: 0 10px 10px -10px black;  
   }
