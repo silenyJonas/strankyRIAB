@@ -8,3 +8,13 @@
     background-color: #8a8a8a;
     box-shadow: 0 10px 10px -10px black;  
   }
+
+  body{
+    margin: 0;
+    /*background-image: url('obrazky/wallaper-gge.jpg');   
+    background-image: url('obrazky/background3.png');  */
+    background-image: url('../obrazky/wallpaper-new2-SINSLAVY.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%; 
+}
