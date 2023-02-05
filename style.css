@@ -5,8 +5,11 @@
 
 body{
     margin: 0;
-    background-image: url('obrazky/wallaper-gge.jpg');      
+    background-image: url('obrazky/wallaper-gge.jpg');   
+    /*background-image: url('obrazky/background3.png');  */
+    background-image: url('obrazky/new-wallpaper.png');         
 }
+
 
 .sec-nav-top{
     font-family: sans-serif;
@@ -89,7 +92,7 @@ body{
     height: 30vw; 
     background-image: url('obrazky/front-board.png');
     background-size: contain;
-  background-repeat: no-repeat;   
+    background-repeat: no-repeat;   
   }
 
 .nadpis-popis{
