@@ -7,11 +7,10 @@ body{
     margin: 0;
     /*background-image: url('obrazky/wallaper-gge.jpg');   
     background-image: url('obrazky/background3.png');  */
-    background-image: url('obrazky/new-wallpaper.png');  
+    background-image: url('obrazky/wallpaper-new2.png');  
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%; 
-
 }
 
 
@@ -22,9 +21,11 @@ body{
     justify-content: space-around;
     align-items: center;
 }
+
 .sec-nav-top-icon{
     height: 100%;
 }
+
 .sec-nav-top-icon img{
     height: 100%;
 }
@@ -45,6 +46,7 @@ body{
     display: flex;
     justify-content: space-around;
 }
+
 .top-container {
     font-family: 'Středoveka mrdka nejaka';
     background-color: #f2d9bb;
@@ -60,8 +62,7 @@ body{
 
   .header{        
        box-shadow: 0 10px 10px -10px black;       
-  }
-  
+  }  
  
   .sticky {
     position: fixed;
@@ -116,7 +117,6 @@ body{
   margin-bottom: 20px;
 }
 
-
 /*
   .pod-popis img{
     width: 100%;
@@ -134,8 +134,7 @@ body{
  .vnitrni-popis{
   margin-top: 2%;
    width: 80%;
- }
-  
+ }  
 
   /*------CCS - nav bar -------*/
   .sec-nav-top p{
