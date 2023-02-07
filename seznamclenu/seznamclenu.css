@@ -2,8 +2,7 @@
 .page-nadpis{
     
     font-family: 'Středoveka mrdka nejaka';
-    position: fixed;
-   
+    position: fixed;   
     top: 10vh;
     font-size: 5vh;
     background-color: #8a8a8a;
@@ -33,7 +32,7 @@
   margin-left: auto;
   margin-right: auto;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 10px;  
 }
 
 h2 {
@@ -43,6 +42,10 @@ h2 {
 }
 h2 small {
   font-size: 0.5em;
+}
+
+.responsive-table{
+  width: 75vw;
 }
 
 .responsive-table li {
