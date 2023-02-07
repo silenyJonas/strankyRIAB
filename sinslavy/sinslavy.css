@@ -10,6 +10,7 @@
   }
 
   body{
+    font-family: sans-serif;
     margin: 0;
     /*background-image: url('obrazky/wallaper-gge.jpg');   
     background-image: url('obrazky/background3.png');  */
@@ -34,10 +35,13 @@
 }
 
 .lane > div{
-  width: 22vw;
+  width: 23vw;
   height: 10vh;
    margin: 45px;
 }
+
+
+
 .offset{
   margin-top: 11vh;
 }
