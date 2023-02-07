@@ -18,6 +18,77 @@
     background-repeat: no-repeat;
     width: 100%; 
 }
+
 .content{
   height: 1500px;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;    
+}
+
+.lane{
+  display: flex;
+  justify-content: space-around;
+}
+
+.lane > div{
+  width: 22vw;
+  height: 10vh;
+   margin: 45px;
+}
+.offset{
+  margin-top: 11vh;
+}
+/*--VYPISY--*/
+.lane img{
+  width: 100%;
+}
+
+.jedna{
+  
+}
+.dva{
+
+}
+.tri{
+
+}
+.ctyri{
+
+}
+.pet{
+
+}
+.sest{
+
+}
+.sedm{
+  background-image: url('../obrazky/sinslavy-obrazky/wall.png');
+}
+.osm{
+  background-image: url('../obrazky/sinslavy-obrazky/wall.png');
+}
+.devet{
+  background-image: url('../obrazky/sinslavy-obrazky/wall.png');
+}
+.deset{
+  background-image: url('../obrazky/sinslavy-obrazky/wall.png');
+}
+.jedenact{
+  background-image: url('../obrazky/sinslavy-obrazky/wall.png');
+}
+.dvanact{
+  background-image: url('../obrazky/sinslavy-obrazky/wall.png');
+}
+
+
+
+
+
+
+
+
+
+/*--VYPISY-KONEC--*/

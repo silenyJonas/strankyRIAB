@@ -43,9 +43,71 @@
       </div>
       
 
-      <div class="content">
+        <div class="content" id="myContent">
         
-    </div>
+            <div class="lane">
+
+                <div class="top-jedna">
+                    <img src="../obrazky/sinslavy-obrazky/o1.png">
+                </div>
+                <div class="top-dva">
+                    <img src="../obrazky/sinslavy-obrazky/o2.png">
+                </div>
+
+            </div>
+
+            <div class="lane">  
+
+                <div class="jedna">
+                    <img src="../obrazky/sinslavy-obrazky/o3.png">
+                </div>
+                <div class="dva">
+                    <img src="../obrazky/sinslavy-obrazky/o4.png">
+                </div>
+                <div class="tri">
+                    <img src="../obrazky/sinslavy-obrazky/o5.png">
+                </div>
+                <div class="ctyri">
+                    <img src="../obrazky/sinslavy-obrazky/o6.png">
+                </div>
+
+            </div>
+
+            <div class="lane">
+
+                <div  class="pet">
+                    <img src="../obrazky/sinslavy-obrazky/o7.png">
+                </div>
+                <div class="sest">
+                    <img src="../obrazky/sinslavy-obrazky/o8.png">
+                </div>
+                <div class="sedm">
+                    <!-- <img src="../obrazky/sinslavy-obrazky/o2.png"> -->
+                </div>
+                <div class="osm">
+                    <!-- <img src="../obrazky/sinslavy-obrazky/o2.png"> -->
+                </div>
+
+            </div>
+
+            <div class="lane">
+
+                <div class="devet">
+                   <!-- <img src="../obrazky/sinslavy-obrazky/o2.png"> -->
+                </div>
+                <div class="deset">
+                  <!-- <img src="../obrazky/sinslavy-obrazky/o2.png"> -->
+                </div>
+                <div class="jedenact">
+                    <!-- <img src="../obrazky/sinslavy-obrazky/o2.png"> -->
+                </div>
+                <div class="dvanact">                    
+                   <!-- <img src="../obrazky/sinslavy-obrazky/o2.png"> -->
+                </div>
+
+            </div>
+
+        </div>
    
       <!--footer-->
       <footer>
@@ -53,16 +115,16 @@
 
             <div class="odkazy">
                 <div>
-                    <a href="">Volny link</a>
+                    <a href="">Discord R.I.A.B</a>
                 </div>
                 <div>
-                    <a href="">Volny link</a>
+                    <a href="">Discord GGE</a>
                 </div>                                                     
                 <div>
-                    <a href="">Volny link</a>
+                    <a href="">Goodgame Empire</a>
                 </div>
                 <div>
-                    <a href="">Volny link</a>
+                    <a href="">Poradnik PL</a>
                 </div>
             </div>                                      
 
@@ -89,13 +151,19 @@
         window.onscroll = function() {myFunction()};
         
         var header = document.getElementById("myHeader");
-        var sticky = header.offsetTop;
+        var sticky = header.offsetTop;       
         
+        var content = document.getElementById("myContent");
+        var offset = content.offsetTop;
+
+
         function myFunction() {
           if (window.pageYOffset > sticky) {
             header.classList.add("sticky");
+            content.classList.add("offset");
           } else {
             header.classList.remove("sticky");
+            content.classList.remove("offset");
           }
         }
     </script>    
