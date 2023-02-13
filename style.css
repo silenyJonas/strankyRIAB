@@ -268,4 +268,43 @@ body{
   .odkazy a{
     font-size: x-large;
   }
+
+
+  @media (max-width: 600px) {
+ 
+   .sec-nav-top{
+    display: block;
+    justify-content: center;
+    height: 16vh;      
+   }
+
+   .sec-nav-top-icon{
+    display: none;
+   }
+
+   .pod-popis{
+    width: 90vw;
+    height: 90vw;
+   }
+   .vnitrni-popis{
+    font-size: medium;
+   }
+   .x{
+    display: none;
+   }
+
+   .sec-nav-top div{
+    text-align: center;
+   }
+
+   .nadpis{
+    font-size: xx-large;
+   }
+
+   .page-nadpis{
+    display: none;
+   }
+  
+  }
+  
   
