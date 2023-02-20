@@ -49,7 +49,52 @@
           Informace
         </div>
       </div>
-      
+      <div class="popis" id="myPopis">
+        <div class="pod-popis"> 
+            
+                <div class="nadpis-popis">
+                    ㅤ
+                </div>  
+                <div class="popis">
+                    <div class="vnitrni-popis">
+                        
+                        <div>
+                            <div>
+                                Zdravím tě,
+                            </div>
+                            <div>
+                                ㅤㅤpředně bych tě chtěl jménem aliance R.I.A.B. pozdravit a poděkovat ti za tvou zpětnou vazbu. 
+                            </div>
+
+                            <div class="x">
+                                ㅤㅤPředpokládám, že jsi me zkontaktoval s ohledem na to že na tebe nebo člena tvé aliance došel útok. 
+                            </div>
+                            <div class="x">
+                                ㅤㅤPokud se jedná o útok v rámci kodexu, tzn. v naší nebo vaší otevírací době a ty nebo tvůj člen nehoří, gratuluji ti, a přeji ti pěkný den.
+                            </div>
+                            <div class="x">
+                                ㅤㅤPokud patříš do skupiny: hořící, odpočinková aliance, nebo multihrad, využij prosím možnost napsání incidentu našemu vedení (Mantis, Syrakus)
+                                Chápeme, že díky naší aktivitě můžeš pociťovat určitý diskomfort, ale nenech se tím deptat a užij si hru. 
+                            </div>
+                            <div class="x">
+                                ㅤㅤVyminujeme si reagovat na vybrané stížnosti a to v době maximálně 7 pracovních dní
+                            </div>
+                            <div class="x">
+                                Co shoří-neshnije
+                            </div>
+                            <div class="x">
+                                R.I.A.B.
+                            </div>                           
+
+                            
+                        </div>
+                                                          
+                    </div>
+                </div>   
+                                                                                                             
+        </div>
+    </div>
+
       <div class="content-s">
        
         </div>
@@ -97,12 +142,17 @@
         
         var header = document.getElementById("myHeader");
         var sticky = header.offsetTop;
+
+        var popis = document.getElementById("myPopis");
+        var offset = popis.offsetTop;
         
         function myFunction() {
           if (window.pageYOffset > sticky) {
             header.classList.add("sticky");
+            popis.classList.add("offset");
           } else {
             header.classList.remove("sticky");
+            popis.classList.remove("offset");
           }
         }
     </script>    

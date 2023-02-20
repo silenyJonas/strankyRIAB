@@ -22,3 +22,7 @@
 .content-s{
   height: 1500px; 
 }
+
+.offset{
+  margin-top: 11vh;
+}
